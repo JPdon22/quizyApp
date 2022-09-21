@@ -1,0 +1,110 @@
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+section{
+  display: flex;
+  overflow-x: hidden;
+  transition: all 0.5s ease;
+}
+#intro{
+  text-align: center;
+  padding: 10px 20px;
+  transition: all 0.4s ease-in;
+  min-width: 90vw;
+  
+}
+h1{
+  color:  #9631f4;
+  font-size: 24px;
+}
+h2{
+  font-size: 20px;
+  color: #8631f4;
+}
+#start-button{
+  background-color: #ef7493;
+  color: rgba(98, 109, 28, 0.521);
+  border: none;
+  padding: 10px 50px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#start-button:hover{
+  background-color: #a28ed2;
+}
+#start-button:active{
+  background-color: #a28ed2;
+}
+#question-box{
+  min-width: 100vw;
+}
+p{
+  font-size: 20px;
+  color: #3194f4;
+  text-align: center;
+}
+.options{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.options>button{
+  max-width: fit-content;
+  background-color: #3194f4;
+  font-size: 14px;
+  border-radius: 20px;
+  padding: 10px 50px;
+  margin-bottom: 10px;
+  color: white;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.options>button:active{
+  background-color: #a28ed2;
+}
+.options>button:hover{
+  background-color: #a28ed2;
+}
+.question{
+  min-width: 100vw;
+  transition: all 0.4s ease-in;
+}
+
+.options{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.options>button{
+  max-width: fit-content;
+  background-color: #3194f4;
+  font-size: 14px;
+  border-radius: 20px;
+  padding: 10px 50px;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.options>button:active{
+  background-color: #a28ed2;
+}
+.options>button:hover{
+  background-color: #a28ed2;
+}
+#score{
+  color: #ef7493;
+  font-size: 24px;
+}
+#score-text{
+  width:89vw;
+  padding-left:20px;
+}

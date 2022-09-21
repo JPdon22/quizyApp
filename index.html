@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizy</title>
+    <link rel="stylesheet" href="quizapp.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+<body>
+    <section>
+        <div id="intro">
+            <h1>How well do you know John Paul?</h1>
+            <h2>Prep Info</h2>
+            <p>
+                This quiz contains 10 questions about me, and you have to be quite close to me to get them right.<br>
+                If you get them all right, send a screen shot and claim your price.&#x1F61C;
+            </p>
+            <button id="start-button">Start</button>
+        </div>
+        <div class="question">
+            <p id="question-text">Favorite Meal?</p>
+            <div class="options">
+                <button class="option">Pounded Yam</button>
+                <button class="option">Potato Porridge</button>
+                <button class="option" onclick="correctOption()">Acha porridge</button>
+                <button class="option">Amala</button>
+                <button class="option">Beans & Plantain</button>
+            </div>
+        </div>
+        <div class="question">
+            <p>Favourite Sports?</p>
+            <div class="options">
+                <button class="option">Tennis</button>
+                <button class="option">Boxing</button>
+                <button class="option">Basketball</button>
+                <button class="option" onclick="correctOption()">Football</button>
+                <button class="option">Cricket</button>
+            </div>
+        </div>
+        <div class="question">
+            <p>Favorite Bible Verse?</p>
+            <div class="options">
+                <button class="option">Matthew 7:7</button>
+                <button class="option" onclick="correctOption()">Romans 8:28</button>
+                <button class="option">Proverbs 12:1</button>
+                <button class="option">Psalms 23:1</button>
+                <button class="option"></button>
+            </div>
+        </div>
+        <div class="question">
+            <p>Favorite Musician?</p>
+            <div class="options">
+                <button class="option">Da Truth</button>
+                <button class="option">Israel Houghton</button>
+                <button class="option">Detrick Haddon</button>
+                <button class="option" onclick="correctOption()">Kirk Franklin</button>
+                <button class="option">Paul Wilbur</button>
+            </div>
+        </div>
+        <div class="question">
+            <p>Favorite Television Series of all time?</p>
+            <div class="options">
+                <button class="option">Merlin</button>
+                <button class="option">Legend of the Seeker</button>
+                <button class="option" onclick="correctOption()">Prison Break</button>
+                <button class="option">24</button>
+                <button class="option"> Money Heist</button>
+            </div>
+        </div>
+        <div class="question">
+            <p>Name of his "LOML"?</p>
+            <div class="options">
+                <button class="option">Esther</button>
+                <button class="option">Debby</button>
+                <button class="option">Patience</button>
+                <button class="option" onclick="correctOption()">Emily</button>
+                <button class="option">Husseina</button>
+            </div>
+        </div>
+        <div class="question">
+            <p>Name of his immediate ex?</p>
+            <div class="options">
+                <button class="option">Esther</button>
+                <button class="option" >Debby</button>
+                <button class="option" onclick="correctOption()">Patience</button>
+                <button class="option">Emily</button>
+                <button class="option">Husseina</button>
+            </div>
+        </div>
+        <div class="question">
+            <p>Name of his previous ex?</p>
+            <div class="options">
+                <button class="option">Esther</button>
+                <button class="option" onclick="correctOption()">Debby</button>
+                <button class="option">Patience</button>
+                <button class="option">Emily</button>
+                <button class="option">Husseina</button>
+            </div>
+        </div>
+        <div class="question">
+            <p>Favorite Movie Star?</p>
+            <div class="options">
+                <button class="option">Tom Cruise</button>
+                <button class="option">Tyler, the Creator</button>
+                <button class="option"></button>
+                <button class="option" onclick="correctOption()">Rema</button>
+                <button class="option">Daniel Ceaser</button>
+            </div>
+        </div>
+        <div class="question">
+            <p>Favorite Color?</p>
+            <div class="options">
+                <button class="option" onclick="correctOption()">Red</button>
+                <button class="option">Blue</button>
+                <button class="option">Purple</button>
+                <button class="option">Pink</button>
+                <button class="option">Black</button>
+            </div>
+        </div>
+        <div class="question">
+            <p id="score">Wait for your score</p>
+            <p id="score-text">Thou knoweth me not.<br>
+                Send a screenshot of your score.</p>
+        </div>
+    </section>
+    <script src="quizapp.js"></script>
+</body>
+<footer class="footer navbar-static-bottom">
+  <div class=container>
+     <a href=#top class=back-to-top><i class="fa fa-angle-up fa-2x" aria-hidden=true></i></a>
+     <div class=social-links><a href=#! target=_blank><i class="fa fa-twitter fa-inverse"></i> </a><a href=#! target=_blank><i class="fa fa-codepen fa-inverse"></i> </a><a href=#! target=_blank><i class="fa fa-linkedin fa-inverse"></i> </a><a href=#! target=_blank><i class="fa fa-github fa-inverse"></i></a></div>
+     <hr>
+     <p class=footer__text>© 2022 - QuizApp developed by <a href=https://github.com/cobidev target=_blank>John Paul Tahiru</a></p>
+     
+  </div>
+</footer>
+</html>
